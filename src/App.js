@@ -7,7 +7,7 @@ import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/shoeClean">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/survey" element={<SurveyForm />} />
