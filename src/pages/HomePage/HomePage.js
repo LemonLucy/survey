@@ -10,7 +10,7 @@ const HomePage = () => {
         <h4>상품 이미지 예시</h4>
         <div style={{ display: 'flex', alignItems: 'center' }}>
         <img
-            src={`${process.env.PUBLIC_URL}/shoe_cleaner.png`}
+            src={"/survey/shoe_cleaner.png"}
             alt="슈크린 상품 이미지"
             style={{ width: '250px', marginRight: '20px' }}
           />
