@@ -7,7 +7,7 @@ import { HashRouter as Router,Routes,Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router basename="/shoeClean">
+    <Router basename='/'>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/survey" element={<SurveyForm />} />
